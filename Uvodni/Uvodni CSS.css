@@ -1,0 +1,19 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+div p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+img {
+  max-width: 1500px;
+  background-color: rgba(255,255,255,0.1);
+}

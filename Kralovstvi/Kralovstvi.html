@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="G:\2. ročník\TWA\Projekt\Universal.css">
+    <link rel="stylesheet" type="text/css" href="Kralovstvi.css">
+    <title>GoT-Kralovstvi</title>
+</head>
+<script src="https://unpkg.com/@popperjs/core@2.11.4/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6.3.6/dist/tippy.umd.js"></script>
+<body>
+    <nav class="menu">
+        <ul class="menu-items">
+          <li><a href="G:\2. ročník\TWA\Projekt\Uvodni\Uvodni.html#domu">Domů</a></li>
+          <li><a href="G:\2. ročník\TWA\Projekt\Postavy\Postavy.html#postavy">Postavy</a></li>
+          <li><a href="G:\2. ročník\TWA\Projekt\Rody\Rody.html#rody">Rody</a></li>
+          <li><a href="G:\2. ročník\TWA\Projekt\Kralovstvi\Kralovstvi.html#kralovstvi">Království</a></li>
+          <li><a href="G:\2. ročník\TWA\Projekt\Draci\Draci.html#draci">Draci</a></li>
+        </ul>
+        <div class="dropdown-icon">&#9776;</div>
+        <div class="dropdown-content">
+          <a href="G:\2. ročník\TWA\Projekt\Uvodni\Uvodni.html#domu">Domů</a>
+          <a href="G:\2. ročník\TWA\Projekt\Postavy\Postavy.html#postavy">Postavy</a>
+          <a href="G:\2. ročník\TWA\Projekt\Rody\Rody.html#rody">Rody</a>
+          <a href="G:\2. ročník\TWA\Projekt\Kralovstvi\Kralovstvi.html#kralovstvi">Království</a>
+          <a href="G:\2. ročník\TWA\Projekt\Draci\Draci.html#draci">Draci</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Game of Thrones</h1>
+        <h2>Mapa Západozemí</h2>
+    </div>
+
+    
+
+    <div id="map-container">
+        <img src="G:\2. ročník\TWA\Projekt\Kralovstvi\Westeros.jpg" alt="Westeros Map" usemap="#westeros-map">
+        <map name="westeros-map">
+          <area shape="poly" coords="201,282,446,244,633,255,707,141,797,210,774,351,778,445,680,526,750,625,620,697,469,787,334,825,114,775,108,564" data-kingdom="Sever" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Starku.png" data-info="Sever je největší region, skoro tak velký, jako zbytek Západozemí dohromady. Je řídce obydlen, s rozsáhlou divočinou, lesy, borovicemi pokrytými pahorky a zasněženými horami. Přesto zde leží jedno z pěti Západozemských největších měst – Bílý Přístav. Severní klima je chladné a tvrdé v zimě a občas zde sněží dokonce i v létě. Severní hranici tvoří Dar – země Noční hlídky. Jižní hranice leží podél Šíje – bažinatá úžina, která odděluje Sever od jižních království. Šířka tohoto regionu a náročnost terénu z Šíje dělá přírodní hranici ochranu před invazí. Vládne zde rod Starků ze Zimohradu už tisíce let, dříve jako králové Severu a později jako lordi. Je zde chladněji a mnohem méně obydlené než jižní část Západozemí. Většina obyvatel stále uctívá staré bohy, ale někteří lidé, zejména okolo Bílého Přístavu, věří v Sedm. Bastardům na Severu je dáváno příjmení Sníh.">
+          <area shape="poly" coords="161,867,245,866,286,901,258,935,195,955,154,948,132,899" data-kingdom="Železné ostrovy" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Greyjoyů.png" data-info="Železné ostrovy jsou skupina ostrovů ležících u západního pobřeží Západozemí v Ironman’s Bay. Skládají se ze sedmi hlavních ostrovů včetně Štítu, Velký Wyk, Starý Wyk a Harlaw. Zdejší půda je neúrodná, ale jsou zde doly několika typů, včetně železných a olověných. Obyvatelé těchto drsných ostrovů jsou známí jako železní muži ve zbytku Západozemí. Sami se zvou „zrození ze železa“. Na Železných ostrovech vládne rod Greyjoyů ze Štítu, zvoleni železnými poté, co byla ukončena pokrevní linie Černého Harrena během Dobývání. Před příchodem Aegona Dobyvatele železní vládli nad Říčními krajinami a většinou západního pobřeží Západozemí. Železní jsou muži moře a jejich námořní převaha byla kdysi bezkonkurenční. Víra v Sedm zde není moc populární, jejich poslušnost patří Potopenému bohu. Bastardům na Železných ostrovech je dáváno příjmení Štít.">
+          <area shape="poly" coords="332,822,468,785,484,803,473,855,572,1013,617,1045,616,1050,524,1155,516,1156,363,1073,366,1001,349,949,317,886,314,871" data-kingdom="Říční krajiny" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Tullyů - N.png" data-info="Říční krajiny jsou úrodné území mezi vidlicemi Trojzubce. Vládne zde rod Tullyů z Řekotočí. V dobách Dobývání zde vládl rod Hoarů z Železných ostrovů, tudíž Tullyové nikdy nebyli králové Říčních krajin, ale byli to říční lordi, kteří rebelovali proti Černému Harrenovi a přidali se k Aegonu Dobyvateli. Bastardům v Říčních krajinách je dáváno příjmení Řeka.">
+          <area shape="poly" coords="488,800,552,746,580,732,725,752,778,793,790,874,795,939,697,1015,609,1031,577,1011,477,856" data-kingdom="Údolí Arryn" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Arrynů - N.png" data-info="Údolí leží na východ od Říčních krajin, téměř celé obklíčeno Měsíčními horami. Skládá se z velkých pohoří, lidé žijí mezi těmito pohořími a podél pobřeží. V Údolí vládne rod Arrynů, jeden z nejstarších rodů z Andalské šlechty, kdysi byli zváni králi Hory a Údolí. Jejich sídlo, Orlí hnízdo, je hrad položený vysoko v horách, malý, ale nedobytný. Jediná cesta až nahoru je přes zrádnou kozí stezku. Kvůli krutým zimám v Údolí je cestování skrz hory možné pouze v určitých obdobích. Vzpurné horské klany činí cestování ještě nebezpečnější. Bastardům v Údolí je dáváno příjmení Kámen.">
+          <area shape="poly" coords="248,946,276,956,344,949,362,999,357,1075,513,1160,154,1240,126,1111,169,1042,225,955" data-kingdom="Západní krajiny" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Lannisterů.png" data-info="Západní krajiny jsou území na západ od Říčních krajin a na sever od Roviny. Je to malý region, ale jsou zde některé nejbohatší zlaté a stříbrné doly na kontinentu. V Západních krajinách vládne rod Lannisterů z Casterlyovy skály, dříve vládli jako králové Skály. Lidé z tohoto regionu jsou často zváni „Západní muži“. Lannisport leží vedle Casterlyovy skály a je to hlavní město regionu a jeden z největších přístavů a měst v Západozemí. Bastardům v Západních krajinách se dává příjmení Kopec.">
+          <area shape="poly" coords="623,1045,644,1039,692,1038,729,1022,768,988,773,993,759,1043,738,1144,709,1221,558,1203,553,1201,523,1161" data-kingdom="Země koruny" data-image="G:\2. ročník\TWA\Projekt\Kralovstvi\Železný trůn.jpg" data-info="Země koruny je území pod nadvládou krále na Železném trůně. Tyto země zahrnují Královo přístaviště a okolní oblasti, včetně města Rosby. Na severu se nachází Cracklawský bod a několik ostrovů v Úzkém moři, včetně Dračího kamene. Země koruny leží jižně od Údolí, jihovýchodně od Říčních krajin, východně od Západních krajin a severně od Roviny a Bouřlivých krajin. Bastardům v Zemích koruny je dáváno příjmení Voda.">
+          <area shape="poly" coords="151,1245,519,1164,551,1205,568,1210,531,1321,396,1375,392,1381,391,1425,311,1425,253,1566,128,1611,106,1570,124,1452" data-kingdom="Rovina" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Tyrellů.png" data-info="Rovina je největší region vyjma Severu, pokrývá nejúrodnější oblast Západozemí a mnoho vysoce osídlených vesnic a měst. Vládne zde rod Tyrellů z Vysoké zahrady. Tyrellové byli majordomové rodu Zahradníků, králů Roviny, před Aegonovým dobýváním. Poté co byl poslední Zahradnický král zabit na Ohnivém poli, Tyrellové odevzdali Vysokou zahradu Aegonovi a on jim na oplátku daroval hrad a postavení lenních pánů Roviny. Vazalové Tyrellů často bojují s Dorny z jihu. Hranice mezi těmito dvěma regiony se nazývá Dornské močály, na severní části močálu jsou osídleny lordy loajálními Tyrellům. Nejprominentnější město v Rovině je Staré město – nejstarší město v Západozemí, domov mistrů z Citadely a dřívější sídlo víry. Bastardům v Rovině je dáváno příjmení Květina.">
+          <area shape="poly" coords="573,1209,710,1224,716,1211,743,1226,794,1288,785,1358,763,1408,708,1435,672,1439,544,1403,535,1401,521,1384,459,1398,427,1426,396,1427,398,1379,536,1324" data-kingdom="Bouřlivé krajiny" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Baratheonů.png" data-info="Bouřlivé krajiny leží na jih od Králova přístaviště, rozléhají se až k Dornskému moři. Východní hranicí je pobřeží Shipbreaker Bay a na západě sousedí s Rovinou. Je to jeden z menších regionů v Západozemí, plná drsných hor, kamenitých pobřeží a zelených lesů. Před Aegonovým dobytím zde vládli bouřliví králové a poté Baratheonové – bastardští příbuzní Targaryenů. Dornské močály, které zde leží, byly obsazeny bouřlivými králi a vládne zde rod Carynů a nižších lordů z mokřad. Tyto močály bývali běžným bojištěm Roviny, Dorne a Bouřlivých krajin dokud se Dorne nepřipojilo do Sedmi království. Bastardům v Bouřivých krajinách je dáváno příjmení Bouře.">
+          <area shape="poly" coords="313,1430,429,1430,460,1402,520,1389,534,1406,669,1444,,809,1446,806,1522,701,1618,300,1627,255,1567" data-kingdom="Dorne" data-image="G:\2. ročník\TWA\Projekt\Rody\Rod Martellů.png" data-info="Dorne je nejjižněji položená oblast v Západozemí. Rozléhá se od Červených hor u Dornských močálů až na jižní pobřeží kontinentu. Je to nejteplejší region v Západozemí a je zde jediná poušť na kontinentu. Dornové mají pověst horkokrevných lidí. Od zbytku Západozemí se odlišují jak kulturou, tak etnicky, kvůli historické invazi Rhoynů do této části Západozemí. Jejich jídlo, vzhled a architektura je podobná Středomořským kulturám, jako například Řecko a Turecko… Přijali mnoho Rhoynských zvyků za své, včetně prvorozeneckého práva. Dorne bylo jediné království, které úspěšně odolávalo Aegonovo dobývání. Připojilo se k Sedmi království díky sňatku po sto lety od Targaryenské invaze. Tímto získalo Dorne jistou menší nezávislost. Lordi z vládnoucího rodu Martellů se stále zvou „princi“ a „Princeznami“ podle Rhoynského stylu. Bastardům v dorne je dáváno příjmení Písek.">
+        </map>
+    </div>
+    <div id="kingdom-info"></div>
+      
+
+    <footer class="footer">
+        <p style="margin-bottom: 5px;">© 2023 Game of Thrones</p>
+        <a href="https://www.hbo.com/game-of-thrones" target="_blank">
+          Game of Thrones
+        </a>
+        <a href="https://www.georgerrmartin.com/" target="_blank">
+          George R. R. Martin
+        </a>
+        <a href="https://www.hbo.com/" target="_blank">
+          HBO
+        </a>
+    </footer>
+
+    <script src="https://unpkg.com/@popperjs/core@2.11.4/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6.3.6/dist/tippy.umd.js"></script>
+    <script src="Kralovstvi.js"></script>
+  
+    <script>
+        const nav = document.querySelector('nav');
+        const container = document.querySelector('.container');
+        const mapcont = document.querySelector('#map-container')
+      
+        nav.addEventListener('mouseenter', () => {
+            container.style.transform = 'translateY(30px)';
+        });
+      
+        nav.addEventListener('mouseleave', () => {
+            container.style.transform = 'translateY(0)';
+        });
+
+        nav.addEventListener('mouseenter', () => {
+            mapcont.style.transform = 'translateY(30px)';
+        });
+      
+        nav.addEventListener('mouseleave', () => {
+            mapcont.style.transform = 'translateY(0)';
+        });
+  
+        const foot = document.querySelector('footer');
+  
+        foot.addEventListener('mouseenter', () => {
+            container.style.transform = 'translateY(-30px)';
+        });
+      
+        foot.addEventListener('mouseleave', () => {
+            container.style.transform = 'translateY(0)';
+        });
+
+        foot.addEventListener('mouseenter', () => {
+            mapcont.style.transform = 'translateY(-30px)';
+        });
+      
+        foot.addEventListener('mouseleave', () => {
+            mapcont.style.transform = 'translateY(0)';
+        });
+
+        
+        document.addEventListener("DOMContentLoaded", function() {
+        var dropdownIcon = document.querySelector(".dropdown-icon");
+        var dropdownContent = document.querySelector(".dropdown-content");
+
+        dropdownIcon.addEventListener("click", function() {
+          dropdownContent.classList.toggle("show");
+        });
+
+        window.addEventListener("click", function(event) {
+          if (!event.target.matches(".dropdown-icon")) {
+            if (dropdownContent.classList.contains("show")) {
+              dropdownContent.classList.remove("show");
+            }
+          }
+        });
+      });
+
+
+        
+
+        const mapContainer = document.getElementById('map-container');
+        const kingdomInfo1 = document.getElementById('kingdom-info');
+
+        function handleInteractiveElements() {
+          const screenWidth = window.innerWidth;
+        
+          if (screenWidth <= 800) {
+            
+            mapContainer.addEventListener('click', toggleKingdomInfo);
+
+            
+            window.addEventListener('resize', resetKingdomInfoPosition);
+          } else {
+            
+            mapContainer.removeEventListener('click', toggleKingdomInfo);
+            resetKingdomInfoPosition();
+          }
+        }
+    
+        function toggleKingdomInfo() {
+          kingdomInfo1.style.display = kingdomInfo1.style.display === 'none' ? 'block' : 'none';
+        }
+    
+        function resetKingdomInfoPosition() {
+          kingdomInfo1.style.display = 'none';
+        }
+    
+        
+        window.addEventListener('load', handleInteractiveElements);
+
+
+
+  
+    </script>
+    
+</body>
+</html>

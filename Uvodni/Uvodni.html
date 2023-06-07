@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="G:\2. ročník\TWA\Projekt\Universal.css">
+    <link rel="stylesheet" type="text/css" href="Uvodni CSS.css">
+    <title>Hra o Trůny</title>
+</head>
+<body>
+  <nav class="menu">
+    <ul class="menu-items">
+      <li><a href="G:\2. ročník\TWA\Projekt\Uvodni\Uvodni.html#domu">Domů</a></li>
+      <li><a href="G:\2. ročník\TWA\Projekt\Postavy\Postavy.html#postavy">Postavy</a></li>
+      <li><a href="G:\2. ročník\TWA\Projekt\Rody\Rody.html#rody">Rody</a></li>
+      <li><a href="G:\2. ročník\TWA\Projekt\Kralovstvi\Kralovstvi.html#kralovstvi">Království</a></li>
+      <li><a href="G:\2. ročník\TWA\Projekt\Draci\Draci.html#draci">Draci</a></li>
+    </ul>
+    <div class="dropdown-icon">&#9776;</div>
+    <div class="dropdown-content">
+      <a href="G:\2. ročník\TWA\Projekt\Uvodni\Uvodni.html#domu">Domů</a>
+      <a href="G:\2. ročník\TWA\Projekt\Postavy\Postavy.html#postavy">Postavy</a>
+      <a href="G:\2. ročník\TWA\Projekt\Rody\Rody.html#rody">Rody</a>
+      <a href="G:\2. ročník\TWA\Projekt\Kralovstvi\Kralovstvi.html#kralovstvi">Království</a>
+      <a href="G:\2. ročník\TWA\Projekt\Draci\Draci.html#draci">Draci</a>
+    </div>
+  </nav>
+  
+    <div class="container">
+      <h1>Game of Thrones</h1>
+      <h2>(Hra o Trůny)</h2>
+      <div style="display: flex; flex-direction: row;">
+        <p style="flex: 1; margin-right: 20px;">Sedm království Západozemí je ve zmatku. Král Robert Baratheon zemřel a rivalové královské rodiny soupeří o Železný trůn. Mezitím se na severu probudilo prastaré zlo, které hrozí, že celý kontinent uvrhne do temnoty. Osud Westerosu visí na vlásku a rody Starků, Lannisterů, Targaryenů, Baratheonů, Greyjoyů, Tyrellů a Martellů musí bojovat, aby ochránily své zájmy.</p>
+        <p style="flex: 1; margin-right: 20px;">Hra o trůny (v anglickém originále Game of Thrones) je americký fantasy dramatický seriál kabelové televize HBO. Jeho tvůrci jsou David Benioff a D. B. Weiss. Předlohou je populární, dosud nedokončená fantasy sága Píseň ledu a ohně spisovatele George R. R. Martina, který se na seriálu rovněž podílel. Seriál je pojmenován podle první knihy v sérii.</p>
+      </div>
+      <div style="display: flex; flex-direction: row;">
+        <p style="flex: 1; margin-right: 20px;">Seriál se natáčí v Titanic Studios v Belfastu, dále pak po celém Severním Irsku, v Chorvatsku, na Islandu, na Maltě, v Maroku, ve Španělsku, ve Skotsku a v USA. Seriál měl celosvětovou premiéru dne 17. dubna 2011, kdy byl vysílán v USA na kanálu HBO. Šestá řada seriálu se v USA vysílala 26. června 2016. Sedmá řada, která obsahuje 7 dílů, byla premiérově vysílána na HBO od 16. července 2017 do 27. srpna 2017. Seriál skončil osmou řadou, kterou tvoří šest dílů, v roce 2019.</p>
+        <p style="flex: 1; margin-right: 20px;">Seriál za svou existenci přilákal nejvíce diváků v historii HBO a má tak velmi širokou diváckou a fanouškovskou základnu, jak v USA, tak po celém světě. Seriál je dobře vnímán i kritiky, nejvíce je pak ceněný díky hereckým výkonům, komplexnosti postav, ději, zaměření a podobně. Hůře je pak kritikou vnímána často zobrazovaná nahota, sexuální násilí a násilí obecně, některé zdroje pak tento seriál považují za pornografický. Seriál vyhrál celkem 38 cen Emmy.</p>
+      </div>
+      <div style="display: flex; flex-direction: row;">
+        <p style="flex: 1; margin-right: 20px;">Děj seriálu se odehrává na fiktivních kontinentech Západozemí a Essos a je složen z několika zápletek s mnoha hlavními postavami. První zápletkou jsou boje mezi znepřátelenými rody o Železný trůn Sedmi království, které se nachází na prakticky celém Západozemí. Do těchto bojů se postupně zapojují i rody toužící po nezávislosti na království. Další zápletkou pak je snaha jednoho z velkých rodů (rod Targaryenů), jehož poslední členové se aktuálně nacházejí ve vyhnanství mimo území království, tedy v Essosu, dobýt trůn, který dříve drželi pro svůj rod. Další velkou zápletkou je příchod zimy a s ní i příchod nemrtvých, Bílých chodců a jejich Nočního krále.</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p style="margin-bottom: 5px;">© 2023 Game of Thrones</p>
+      <a href="https://www.hbo.com/game-of-thrones" target="_blank">
+        Game of Thrones
+      </a>
+      <a href="https://www.georgerrmartin.com/" target="_blank">
+        George R. R. Martin
+      </a>
+      <a href="https://www.hbo.com/" target="_blank">
+        HBO
+      </a>
+    </footer>
+
+    <script>
+        const nav = document.querySelector('nav');
+        const container = document.querySelector('.container');
+    
+        nav.addEventListener('mouseenter', () => {
+          container.style.transform = 'translateY(30px)';
+        });
+    
+        nav.addEventListener('mouseleave', () => {
+          container.style.transform = 'translateY(0)';
+        });
+
+        const foot = document.querySelector('footer');
+
+        foot.addEventListener('mouseenter', () => {
+          container.style.transform = 'translateY(-30px)';
+        });
+    
+        foot.addEventListener('mouseleave', () => {
+          container.style.transform = 'translateY(0)';
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+        var dropdownIcon = document.querySelector('.dropdown-icon');
+        var dropdownContent = document.querySelector('.dropdown-content');
+
+        dropdownIcon.addEventListener('click', function() {
+        dropdownContent.classList.toggle('show');
+          });
+        });
+    </script>
+
+      
+      
+    
+</body>
+</html>

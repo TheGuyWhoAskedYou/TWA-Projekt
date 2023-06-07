@@ -1,0 +1,43 @@
+.character {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.character1 {
+    width: 48%;
+    margin-bottom: 50px;
+}
+  
+.character1 img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 5px;
+}
+  
+.character1 div {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+  
+.character-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+  
+.character-description {
+    font-style: italic;
+}
+  
+@media only screen and (max-width: 768px) {
+    .character1 {
+      width: 100%;
+    }
+}

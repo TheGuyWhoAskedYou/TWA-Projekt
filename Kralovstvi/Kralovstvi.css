@@ -1,0 +1,73 @@
+#map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+  
+#kingdom-info {
+    position: fixed;
+    top: 50%;
+    right: -300px; /* Start with the container hidden off-screen */
+    transform: translateY(-50%);
+    background-color: black;
+    color: white; /* Set the text color to white */
+    padding: 20px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+    animation: slide-out 1.5s forwards; /* Add animation to slide out from the middle of the right page */
+    max-width: 400px; /* Set a maximum width for the container */
+    overflow-wrap: break-word; /* Wrap long words to prevent overflow */
+}
+
+
+@keyframes slide-out {
+    0% {
+      right: -450px;
+    }
+    100% {
+      right: 0;
+    }
+}
+
+@keyframes slide-in {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: -450px;
+    }
+}
+
+.tooltip {
+    position: fixed;
+    z-index: 9999;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    pointer-events: none;
+    display: none;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+  #map-container {
+    height: auto;
+    width: auto;
+    transform: translateX(50%);
+  }
+
+  h1{
+    transform: translateX(50%);
+  }
+
+  h2{
+    transform: translateX(50%);
+  }
+}

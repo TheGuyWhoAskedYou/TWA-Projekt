@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/75fc39577154b71efb91bad861d5763d4999b1536c42980e2cb68fe18c9bd5a3._RI_.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  opacity: 0;
+  z-index: 9999;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  background-image: url(https://cdn.wallpapersafari.com/80/67/6NowR1.jpg);
+  background-position: center -240px;
+  z-index: 9999;
+}
+
+nav li {
+  float: left;
+}
+
+div {
+  color: white;
+}
+
+nav li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+  text-decoration: underline;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  display: block;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-image: url(https://cdn.wallpapersafari.com/80/67/6NowR1.jpg);
+  background-position: center -240px;
+  padding: 10px 13px;
+}
+
+.footer:hover {
+  opacity: 1;
+}
+
+.footer p {
+  margin: 0;
+  background-color: none;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu .dropdown-content.show {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu .dropdown-icon {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .menu .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/80/67/6NowR1.jpg);
+    z-index: 9999;
+  }
+
+  .menu .dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 9999;
+  }
+
+  nav {
+    opacity: 1;
+  }
+
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (min-width: 801px) {
+  .menu .dropdown-icon {
+    display: none;
+  }
+}

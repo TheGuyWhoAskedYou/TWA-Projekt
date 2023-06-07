@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dragon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dragon-list li {
+    flex-basis: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.dragon-list li h3 {
+    margin-top: 0;
+}
+
+.dragon-list li p {
+    margin-bottom: 0;
+}
+
+img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+  
+
+@media (max-width: 800px) {
+    .dragon-list li {
+      flex-basis: 100%;
+      max-width: 300px;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
