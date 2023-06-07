@@ -8,19 +8,19 @@
 #kingdom-info {
     position: fixed;
     top: 50%;
-    right: -300px; /* Start with the container hidden off-screen */
+    right: -300px;
     transform: translateY(-50%);
     background-color: black;
-    color: white; /* Set the text color to white */
+    color: white; 
     padding: 20px;
     border-radius: 10px;
     border-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 9999;
     display: none;
-    animation: slide-out 1.5s forwards; /* Add animation to slide out from the middle of the right page */
-    max-width: 400px; /* Set a maximum width for the container */
-    overflow-wrap: break-word; /* Wrap long words to prevent overflow */
+    animation: slide-out 1.5s forwards;
+    max-width: 400px; 
+    overflow-wrap: break-word; 
 }
 
 
@@ -69,5 +69,13 @@
 
   h2{
     transform: translateX(50%);
+  }
+
+  footer p{
+    font-size: 12px;
+  }
+
+  footer a{
+    font-size: 12px;
   }
 }

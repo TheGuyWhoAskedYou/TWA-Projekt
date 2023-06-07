@@ -72,5 +72,13 @@
       max-width: none;
       text-align: center;
     }
+
+    footer p{
+        font-size: 12px;
+    }
+    
+    footer a{
+        font-size: 12px;
+    }
 }
   
